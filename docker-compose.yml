@@ -3,7 +3,7 @@ version: '3'
 services:
 
   proxy:
-    build: pgrover5/airbnb_proxy
+    image: pgrover5/airbnb_proxy
     depends_on:
       - 'checkout'
       - 'carousel'
