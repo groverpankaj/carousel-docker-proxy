@@ -5,7 +5,7 @@ services:
   proxy:
     build: ./
     depends_on:
-      - 'checkout'
+      # - 'checkout'
       - 'carousel'
     ports:
       - '3000:3000'
