@@ -17,12 +17,12 @@ services:
     ports: 
       - '2500:2500'
   
-  checkout:
-    image: dapaul2121/airbnb_proxy:checkout
-    depends_on:
-      - 'database'
-    ports: 
-      - '2000:2000'    
+  # checkout:
+  #   image: dapaul2121/airbnb_proxy:checkout
+  #   depends_on:
+  #     - 'database'
+  #   ports: 
+  #     - '2000:2000'    
 
   database:
     image: mongo:latest
